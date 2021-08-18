@@ -1,0 +1,655 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="EclipseModuleManager">
+    <libelement value="jar://$USER_HOME$/.ant/cache/jline/jline/jars/jline-2.11.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.4.17.v20190418.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.4.17.v20190418-tests.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.4.17.v20190418.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.4.17.v20190418.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.4.17.v20190418.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-9.4.17.v20190418.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.10.1.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.10.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.10.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.25.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.github.spotbugs/spotbugs-annotations/jars/spotbugs-annotations-3.1.9.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/log4j/log4j/bundles/log4j-1.2.17.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.yetus/audience-annotations/jars/audience-annotations-0.5.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-handler/jars/netty-handler-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-common/jars/netty-common-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport/jars/netty-transport-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-codec/jars/netty-codec-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.1.45.Final.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/junit/junit/jars/junit-4.12.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.mockito/mockito-core/jars/mockito-core-2.27.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.9.10.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/net.bytebuddy/byte-buddy-agent/jars/byte-buddy-agent-1.9.10.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.puppycrawl.tools/checkstyle/jars/checkstyle-7.1.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/antlr/antlr/jars/antlr-2.7.7.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.9.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.google.guava/guava/bundles/guava-19.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.60.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.60.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/commons-io/commons-io/jars/commons-io-2.6.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-config/jars/kerby-config-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-simplekdc/jars/kerb-simplekdc-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-client/jars/kerb-client-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-core/jars/kerb-core-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-pkix/jars/kerby-pkix-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-asn1/jars/kerby-asn1-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-util/jars/kerby-util-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-common/jars/kerb-common-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-crypto/jars/kerb-crypto-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-util/jars/kerb-util-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/token-provider/jars/token-provider-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-4.41.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/com.github.stephenc.jcip/jcip-annotations/jars/jcip-annotations-1.0-1.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/net.minidev/json-smart/bundles/json-smart-2.3.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/net.minidev/accessors-smart/bundles/accessors-smart-1.2.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-admin/jars/kerb-admin-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-server/jars/kerb-server-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-identity/jars/kerb-identity-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-xdr/jars/kerby-xdr-2.0.0.jar!/" />
+    <libelement value="jar://$USER_HOME$/.ant/cache/org.hamcrest/hamcrest-all/jars/hamcrest-all-1.3.jar!/" />
+    <src_description expected_position="1">
+      <src_folder value="file://$MODULE_DIR$/zookeeper-server/src/main/java" expected_position="1" />
+      <src_folder value="file://$MODULE_DIR$/zookeeper-jute/src/main/java" expected_position="2" />
+      <src_folder value="file://$MODULE_DIR$/zookeeper-jute/target/main/java" expected_position="3" />
+      <src_folder value="file://$MODULE_DIR$/zookeeper-server/src/test/java" expected_position="4" />
+      <src_folder value="file://$MODULE_DIR$/zookeeper-it/src/test/java" expected_position="5" />
+    </src_description>
+  </component>
+  <component name="NewModuleRootManager">
+    <output url="file://$MODULE_DIR$/.eclipse/classes-main" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/zookeeper-it/src/test/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zookeeper-jute/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zookeeper-jute/target/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zookeeper-server/src/main/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/zookeeper-server/src/test/java" isTestSource="false" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="jline-2.11.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/jline/jline/jars/jline-2.11.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-server-9.4.17.v20190418.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-server/jars/jetty-server-9.4.17.v20190418.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="javax.servlet-api-3.1.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/javax.servlet/javax.servlet-api/jars/javax.servlet-api-3.1.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-http-9.4.17.v20190418-tests.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-http/jars/jetty-http-9.4.17.v20190418-tests.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-util-9.4.17.v20190418.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-util/jars/jetty-util-9.4.17.v20190418.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-io-9.4.17.v20190418.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-io/jars/jetty-io-9.4.17.v20190418.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-servlet-9.4.17.v20190418.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-servlet/jars/jetty-servlet-9.4.17.v20190418.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jetty-security-9.4.17.v20190418.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.eclipse.jetty/jetty-security/jars/jetty-security-9.4.17.v20190418.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-databind-2.9.10.1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-databind/bundles/jackson-databind-2.9.10.1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-annotations-2.9.10.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-annotations/bundles/jackson-annotations-2.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jackson-core-2.9.10.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.fasterxml.jackson.core/jackson-core/bundles/jackson-core-2.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-api-1.7.25.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="slf4j-log4j12-1.7.25.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.25.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-cli-1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/commons-cli/commons-cli/jars/commons-cli-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="spotbugs-annotations-3.1.9.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.github.spotbugs/spotbugs-annotations/jars/spotbugs-annotations-3.1.9.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jsr305-3.0.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.google.code.findbugs/jsr305/jars/jsr305-3.0.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="log4j-1.2.17.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/log4j/log4j/bundles/log4j-1.2.17.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="audience-annotations-0.5.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.yetus/audience-annotations/jars/audience-annotations-0.5.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-handler-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-handler/jars/netty-handler-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-common-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-common/jars/netty-common-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-buffer-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-buffer/jars/netty-buffer-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-transport-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport/jars/netty-transport-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-resolver-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-resolver/jars/netty-resolver-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-codec-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-codec/jars/netty-codec-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-transport-native-epoll-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport-native-epoll/jars/netty-transport-native-epoll-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="netty-transport-native-unix-common-4.1.45.Final.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/io.netty/netty-transport-native-unix-common/jars/netty-transport-native-unix-common-4.1.45.Final.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="junit-4.12.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/junit/junit/jars/junit-4.12.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hamcrest-core-1.3.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="mockito-core-2.27.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.mockito/mockito-core/jars/mockito-core-2.27.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byte-buddy-1.9.10.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/net.bytebuddy/byte-buddy/jars/byte-buddy-1.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="byte-buddy-agent-1.9.10.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/net.bytebuddy/byte-buddy-agent/jars/byte-buddy-agent-1.9.10.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="objenesis-2.6.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.objenesis/objenesis/jars/objenesis-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="checkstyle-7.1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.puppycrawl.tools/checkstyle/jars/checkstyle-7.1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr-2.7.7.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/antlr/antlr/jars/antlr-2.7.7.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="antlr4-runtime-4.5.3.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.antlr/antlr4-runtime/jars/antlr4-runtime-4.5.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-beanutils-1.9.3.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/commons-beanutils/commons-beanutils/jars/commons-beanutils-1.9.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-logging-1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/commons-logging/commons-logging/jars/commons-logging-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="guava-19.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.google.guava/guava/bundles/guava-19.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-collections-3.2.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/commons-collections/commons-collections/jars/commons-collections-3.2.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcprov-jdk15on-1.60.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.bouncycastle/bcprov-jdk15on/jars/bcprov-jdk15on-1.60.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="bcpkix-jdk15on-1.60.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.bouncycastle/bcpkix-jdk15on/jars/bcpkix-jdk15on-1.60.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="commons-io-2.6.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/commons-io/commons-io/jars/commons-io-2.6.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerby-config-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-config/jars/kerby-config-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-simplekdc-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-simplekdc/jars/kerb-simplekdc-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-client-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-client/jars/kerb-client-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-core-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-core/jars/kerb-core-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerby-pkix-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-pkix/jars/kerby-pkix-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerby-asn1-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-asn1/jars/kerby-asn1-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerby-util-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-util/jars/kerby-util-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-common-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-common/jars/kerb-common-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-crypto-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-crypto/jars/kerb-crypto-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-util-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-util/jars/kerb-util-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="token-provider-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/token-provider/jars/token-provider-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="nimbus-jose-jwt-4.41.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.nimbusds/nimbus-jose-jwt/jars/nimbus-jose-jwt-4.41.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="jcip-annotations-1.0-1.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/com.github.stephenc.jcip/jcip-annotations/jars/jcip-annotations-1.0-1.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="json-smart-2.3.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/net.minidev/json-smart/bundles/json-smart-2.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="accessors-smart-1.2.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/net.minidev/accessors-smart/bundles/accessors-smart-1.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="asm-5.0.4.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.ow2.asm/asm/jars/asm-5.0.4.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-admin-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-admin/jars/kerb-admin-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-server-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-server/jars/kerb-server-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerb-identity-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerb-identity/jars/kerb-identity-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="kerby-xdr-2.0.0.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.apache.kerby/kerby-xdr/jars/kerby-xdr-2.0.0.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="hamcrest-all-1.3.jar">
+        <CLASSES>
+          <root url="jar://$USER_HOME$/.ant/cache/org.hamcrest/hamcrest-all/jars/hamcrest-all-1.3.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
